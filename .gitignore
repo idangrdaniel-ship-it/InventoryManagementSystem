@@ -1,0 +1,3 @@
+# Build artifacts for platform-specific packaging
+out/
+*.dmg

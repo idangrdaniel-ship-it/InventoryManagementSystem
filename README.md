@@ -56,6 +56,17 @@ This application can be used by any small to mid-sized stores to easily maintain
 
 All the project dependencies are available in the [`lib`](lib/) directory.
 
+### Apple Silicon build
+
+An experimental script is provided to create a native macOS package for
+Apple Silicon. On an Apple Silicon Mac with JDK 17+ installed, run:
+
+```bash
+./scripts/build-mac-arm64.sh
+```
+
+The resulting `.dmg` installer will be placed under `out/mac/`.
+
 ***
 
 
